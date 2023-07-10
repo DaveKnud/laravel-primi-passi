@@ -405,7 +405,7 @@
 </head>
 
 <body class="antialiased">
-    <h1>Dynamic Hello World </h1>
+    <h1>Dynamic Hello World from {{ $name }} </h1>
 </body>
 
 </html>

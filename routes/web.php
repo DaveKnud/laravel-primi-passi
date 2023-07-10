@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
-    return view('HelloWorld');
+    $name = 'Davide';
+    return view('myFolder.HelloWorld', compact('name'));
+});
+
+Route::get('/', function () {
+    return view('myFolder.HelloWorld');
 });
