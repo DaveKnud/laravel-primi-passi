@@ -405,7 +405,7 @@
 </head>
 
 <body class="antialiased">
-    <h1>Hello World [text]</h1>
+    <h1>Dynamic Hello World </h1>
 </body>
 
 </html>
