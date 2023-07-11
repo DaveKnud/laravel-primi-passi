@@ -25,3 +25,7 @@ Route::get('/', function () {
     ];
     return view('myFolder.HelloWorld', compact('name', 'lastname', 'ids'));
 });
+
+Route::get('/Header', function () {
+    return view('MyFolder.Header');
+});
