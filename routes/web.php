@@ -24,8 +24,8 @@ Route::get('/', function () {
         "Contact",
     ];
     return view('myFolder.HelloWorld', compact('name', 'lastname', 'ids'));
-});
+})->name("HelloWorld");
 
 Route::get('/Header', function () {
     return view('MyFolder.Header');
-});
+})->name("Home");;

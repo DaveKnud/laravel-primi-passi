@@ -411,6 +411,7 @@
             <li>{{ $id }}</li>
         @endforeach
     </ul>
+    <a href="{{ route('Home') }}">Home</a>
 </body>
 
 </html>

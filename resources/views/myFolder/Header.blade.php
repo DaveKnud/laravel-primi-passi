@@ -406,7 +406,7 @@
 
 <body class="antialiased">
     <h1>Dynamic Hello World from Header</h1>
-
+    <a href="{{ route('HelloWorld') }}">Home</a>
 </body>
 
 </html>
