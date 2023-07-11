@@ -15,10 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    $name = 'Davide';
-    return view('myFolder.HelloWorld', compact('name'));
-});
-
-Route::get('/', function () {
-    return view('myFolder.HelloWorld');
+    $name = 'Davideee';
+    $lastname = "Pescee";
+    $ids = [
+        "Home",
+        "Prices",
+        "About Us",
+        "Contact",
+    ];
+    return view('myFolder.HelloWorld', compact('name', 'lastname', 'ids'));
 });

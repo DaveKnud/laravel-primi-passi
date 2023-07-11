@@ -405,7 +405,12 @@
 </head>
 
 <body class="antialiased">
-    <h1>Dynamic Hello World from {{ $name }} </h1>
+    <h1>Dynamic Hello World from {{ $name }} {{ $lastname }}</h1>
+    <ul>
+        @foreach ($ids as $id)
+            <li>{{ $id }}</li>
+        @endforeach
+    </ul>
 </body>
 
 </html>
